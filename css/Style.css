@@ -1,0 +1,276 @@
+body {
+    background: rgba(246, 246, 246, 1);
+
+}
+
+.Section-Name {
+    color : #686868;
+}
+
+/* Header Area - Start */
+.header {
+    background: rgba(255,255,255, 0.6);
+    border: 1px solid rgba(255,255,255, 1);
+}
+
+.div-inline {
+    display: inline-block;
+    margin: 10px;
+}
+
+.search-box {
+    margin-right: 10px;
+}
+
+.search-box input {
+    width: 350px;
+    height: 27px;
+    border-radius: 2px;
+    border: 1px solid #686868;
+}
+
+.search-box input {
+    text-indent: 30px;
+}
+
+.search-box .fa-search {
+    position: absolute;
+    color: #686868;
+    top: 15px;
+    left: 30px;
+}
+
+.custom-dropdown {
+    border-color: #686868;
+    padding: 0 12px;
+    background: none;
+    max-height: 30px;
+}
+
+.social {
+    margin: 10px;
+}
+
+ul.social {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul.social li {
+    font-size: 26px;
+    display: inline;
+}
+
+ul.social li a {
+    color: #686868;
+}
+
+ul.social li.facebook a:hover {
+    color: rgb(59, 89, 152);
+}
+
+ul.social li.twitter a:hover {
+    color: rgb(0, 137, 237);
+}
+
+ul.social li.instagram a:hover {
+    color: rgb(195, 42, 163);
+}
+
+/* Header Area - End */
+
+/* Banner Area - Start */
+.banner {
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.banner p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    max-width: 500px;
+}
+
+.banner a {
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    width: 150px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 1em;
+}
+
+.banner a:hover {
+    text-decoration: none;
+    color: #686868;
+    border-color: #686868;
+}
+
+/* Banner Area - End */
+
+/* Upcoming Events - Start */
+.up-coming-events h3 {
+    margin: 1em 0;
+}
+
+.card-event {
+    margin: 2em 0;
+}
+
+.team1 img {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 45px;
+    height: 45px;
+}
+
+.team1 p{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.team2 img {
+    position: absolute;
+    top: 20px;
+    left: 235px;
+    width: 45px;
+    height: 45px;
+}
+
+.team2 p{
+    position: absolute;
+    top: 65px;
+    left: 225px;
+    color: #ffffff;
+}
+
+.VS {
+    position: absolute;
+    top: 35px;
+    left: 160px;
+    color: #ffffff;
+}
+
+.card h4 {
+    position: absolute;
+    top : 25px;
+    color: #ffffff;
+}
+
+.coming-soon {
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    width: 100px;
+}
+
+.viewall {
+    overflow: auto;
+}
+
+.primary-disc {
+    font-size: 0.9em;
+}
+
+.secondary-disc {
+    font-size: 0.8em;
+}
+
+.viewall a {
+    float: right;
+    padding: 0.2em 1em;
+    border-radius: 20px;
+    color: #686868;
+    border: 1px solid rgba(150, 149, 151, 1);
+}
+
+.viewall a:hover {
+    color: #000000;
+    text-decoration: none;
+    background: rgba(255,255,255, 0.6);
+}
+
+.events {
+    margin: 2em 0;
+}
+
+.card-details-footer {
+    overflow: hidden;
+}
+
+.nav-arrow {
+    margin: 0 7em;
+    color: rgba(150, 149, 151, 1);
+    cursor: pointer;
+}
+
+.left-arrow {
+    margin: 0 0.5em;
+    color: rgba(150, 149, 151, 1);
+    cursor: pointer;
+}
+
+.right-arrow {
+    margin: 0 0.5em;
+}
+
+.get-ticket {
+    z-index: 10000;
+}
+.get-ticket a{
+    padding: 0.2em 1em;
+    border-radius: 20px;
+    color: #ffffff;
+    background-image: linear-gradient(-32deg, rgba(162, 31, 97, 1) 0%, rgba(235, 48, 49, 1) 100%)
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+/* Upcoming Events - End */
+
+/* Memberships Area - Start */
+.memberships h3 {
+    margin: 1em 0;
+}
+
+.memberships h4 {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #ffffff;
+}
+
+.memberships h5 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: #ffffff;
+}
+
+.memberships p {
+    position: absolute;
+    font-size: 0.75em;
+    top: 115px;
+    left: 150px;
+    color: #ffffff;
+}
+
+
+/* Memberships Area - End */
